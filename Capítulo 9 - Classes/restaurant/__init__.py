@@ -16,10 +16,14 @@ class Restaurant():
 
 
     
-
+class IceCreamStand(Restaurant):
+    def __init__(self,restaurant_name,cuisine_type,flavors):
+        super().__init__(restaurant_name, cuisine_type)
+        self.flavors = flavors
 
     
-
-restaurant = Restaurant('Julinho cachorrão','podrão')
-restaurant.describe__restaurant()
-restaurant.open_restaurant()
+    def print_flavors(self):
+        print("os sabores são: ")
+        for flavor in self.flavors:
+            print(flavor)
+        

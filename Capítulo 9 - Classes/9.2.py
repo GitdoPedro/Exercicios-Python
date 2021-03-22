@@ -20,6 +20,15 @@ class Restaurant():
 
     
 
-restaurant = Restaurant('Julinho cachorrão','podrão')
-restaurant.describe__restaurant()
-restaurant.open_restaurant()
+restaurant1 = Restaurant('Julinho cachorrão','podrão')
+restaurant1.describe__restaurant()
+restaurant1.open_restaurant()
+
+restaurant2 = Restaurant('Mc donalds','podrão')
+restaurant2.describe__restaurant()
+restaurant2.open_restaurant()
+
+
+restaurant3 = Restaurant('papa jack','pizza')
+restaurant3.describe__restaurant()
+restaurant3.open_restaurant()
